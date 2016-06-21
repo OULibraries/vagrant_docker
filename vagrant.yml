@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  sudo: yes
+  vars_files:
+    - my-vars.yml
+  roles:
+    - OULibraries.centos7
+    - OULibraries.docker-host
+    - OULibraries.users

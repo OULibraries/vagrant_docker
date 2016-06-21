@@ -1,0 +1,11 @@
+# Ignore ansible roles in the vagrant directory
+roles/
+
+# Ignore ansible retries
+*.retry
+
+# Ignore vagrant build files
+.vagrant
+
+# Ignore local variables
+my-vars.yml
