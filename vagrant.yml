@@ -7,3 +7,10 @@
     - OULibraries.centos7
     - OULibraries.docker-host
     - OULibraries.users
+
+  tasks:
+    - name: Add docker group to vagrant user
+      user:
+        name: vagrant
+        append: yes
+        groups: docker
